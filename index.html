@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>1810 — Café Resto Bar</title>
+<meta name="description" content="1810. Una ex estación de servicio YPF art-deco en Tres Arroyos, reconvertida en café resto bar. No es lo que pensás.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ambient brand mark, always present -->
+<header class="brandbar">
+  <div class="brandbar__mark">1810</div>
+  <nav class="brandbar__rail" aria-label="Secciones">
+    <button class="rail__dot" data-goto="0" aria-label="Fachada"><span></span></button>
+    <button class="rail__dot" data-goto="1" aria-label="Patio"><span></span></button>
+    <button class="rail__dot" data-goto="2" aria-label="Burger Helado Pizza"><span></span></button>
+    <button class="rail__dot" data-goto="3" aria-label="Comedor"><span></span></button>
+    <button class="rail__dot" data-goto="4" aria-label="Barra"><span></span></button>
+    <button class="rail__dot" data-goto="5" aria-label="Cierre"><span></span></button>
+  </nav>
+  <div class="brandbar__tag">18&frasl;10</div>
+</header>
+
+<div class="progress" aria-hidden="true"><div class="progress__fill"></div></div>
+
+<!-- fixed cinematic stage: all scenes live here as absolutely stacked layers -->
+<main class="stage" id="stage">
+
+  <div class="scene" data-scene="0">
+    <video class="scene__video" muted playsinline preload="auto" poster="assets/img/01-fachada-dive-poster.jpg">
+      <source src="assets/video/01-fachada-dive.mp4" type="video/mp4">
+    </video>
+    <div class="scene__scrim scene__scrim--heavy"></div>
+    <div class="scene__content scene__content--hero">
+      <p class="eyebrow">Ex Estación YPF · Tres Arroyos</p>
+      <h1 class="wordmark">1810</h1>
+      <p class="tagline">No es lo que pensás</p>
+      <div class="scrollcue">
+        <span>Descubrí el lugar</span>
+        <div class="scrollcue__line"><i></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scene" data-scene="1">
+    <video class="scene__video" muted playsinline preload="auto" poster="assets/img/02-barra-dive-poster.jpg">
+      <source src="assets/video/02-barra-dive.mp4" type="video/mp4">
+    </video>
+    <div class="scene__scrim"></div>
+    <div class="scene__content">
+      <p class="eyebrow">01 — La barra</p>
+      <h2 class="headline">La estación de servicio<br>ahora sirve otra cosa.</h2>
+      <p class="body-copy">Mármol verde profundo, madera clara y una estantería que no para de crecer. El cartel dorado que da nombre al rincón es un guiño directo a lo que este lugar supo ser.</p>
+      <ul class="tags"><li>Barra&nbsp;de&nbsp;mármol</li><li>Tragos</li><li>Estación&nbsp;de&nbsp;Servicio</li></ul>
+    </div>
+  </div>
+
+  <div class="scene" data-scene="2">
+    <video class="scene__video" muted playsinline preload="auto" poster="assets/img/03-comedor-dive-poster.jpg">
+      <source src="assets/video/03-comedor-dive.mp4" type="video/mp4">
+    </video>
+    <div class="scene__scrim"></div>
+    <div class="scene__content">
+      <p class="eyebrow">02 — El comedor</p>
+      <h2 class="headline">Cien bombitas colgando,<br>ninguna con apuro.</h2>
+      <p class="body-copy">Una foquería a la vista cae sobre mesas largas de madera maciza. Es el punto exacto entre la sobremesa y la barra: se llega temprano y se va tarde.</p>
+      <ul class="tags"><li>Sobremesa</li><li>Foquería</li><li>Madera&nbsp;maciza</li></ul>
+    </div>
+  </div>
+
+  <div class="scene" data-scene="3">
+    <div class="scene__img" style="background-image:url('assets/img/06-conjunto-noche-wide.jpg')"></div>
+    <div class="scene__scrim"></div>
+    <div class="scene__content">
+      <p class="eyebrow">03 — La llegada</p>
+      <h2 class="headline">Donde antes cargaban nafta,<br>ahora se carga la noche.</h2>
+      <p class="body-copy">La vieja estación YPF de la esquina se reinventó entera: la torre art-decó, el surtidor y el galpón se convirtieron en un mundo propio de luces cálidas y patios escondidos.</p>
+      <ul class="tags"><li>Art&nbsp;decó</li><li>Reciclaje&nbsp;urbano</li><li>Tres&nbsp;Arroyos</li></ul>
+    </div>
+  </div>
+
+  <!-- <div class="scene" data-scene="3">
+    <div class="scene__img" style="background-image:url('assets/img/03-pabellon-burger-helado-pizza-noche.jpg')"></div>
+    <div class="scene__scrim"></div>
+    <div class="scene__content">
+      <p class="eyebrow">03 — El pabellón</p>
+      <h2 class="headline">Tres antojos,<br>una misma llama.</h2>
+      <p class="body-copy">Un galpón de vidrio y acero negro separa el mundo en tres: burgers de contramano, helado artesanal y pizza a la piedra — todo servido bajo el mismo techo iluminado.</p>
+      <ul class="tags"><li>Burger</li><li>Helado</li><li>Pizza</li></ul>
+    </div>
+  </div> -->
+
+  
+
+  <div class="scene" data-scene="4">
+    <div class="scene__img" style="background-image:url('assets/img/04-torre-ypf-noche.jpg')"></div>
+    <div class="scene__scrim scene__scrim--heavy"></div>
+    <div class="scene__content scene__content--cta">
+      <p class="eyebrow">1810 · 18&frasl;10</p>
+      <h2 class="headline headline--cta">No es lo que pensás.</h2>
+      <p class="body-copy">Café de mañana, resto de mediodía, barra de noche. Una ex estación de servicio en el corazón de Tres Arroyos, abierta para quedarse.</p>
+      <div class="cta-row">
+        <a class="btn btn--primary" href="#" data-role="reservar">Reservar una mesa</a>
+        <a class="btn btn--ghost" href="#" data-role="instagram">@1810 en Instagram</a>
+      </div>
+      <p class="fine-print">Tres Arroyos, Buenos Aires — abierto todos los días</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- scroll spacer defines the total scrollable length; JS sizes it -->
+<div class="scroll-spacer" id="spacer"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
