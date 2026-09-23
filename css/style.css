@@ -404,23 +404,6 @@ a { color: inherit; }
   opacity: 0.7;
 }
 
-.credit {
-  margin-top: 0.6rem;
-  font-size: 0.68rem;
-  letter-spacing: 0.1em;
-  color: var(--cream-dim);
-  opacity: 0.55;
-}
-.credit a {
-  color: var(--brass-light);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.3s ease, opacity 0.3s ease;
-}
-.credit a:hover {
-  border-color: var(--brass-light);
-  opacity: 1;
-}
 
 /* Scroll spacer — actual page height driving the scrub */
 .scroll-spacer {
@@ -455,6 +438,24 @@ a { color: inherit; }
   white-space: nowrap;
 }
 
+.credit {
+  margin-top: 1.6rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: var(--cream-dim);
+  opacity: 0.7;
+}
+.credit a {
+  color: var(--brass-light);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease, opacity 0.3s ease;
+}
+.credit a:hover {
+  border-color: var(--brass-light);
+  opacity: 1;
+}
+
 /* ---------------------------------------------------------
    Reduced motion
 --------------------------------------------------------- */
@@ -481,7 +482,7 @@ a { color: inherit; }
   .cta-row { gap: 0.6rem; margin-top: 0.2rem; }
   .btn { padding: 0.8rem 1.5rem; font-size: 0.74rem; }
   .fine-print { margin-top: 1.2rem; font-size: 0.62rem; letter-spacing: 0.12em; }
-  .credit { margin-top: 0.4rem; font-size: 0.6rem; }
+  .credit { margin-top: 1rem; font-size: 0.7rem; }
 }
 
 @supports (height: 100dvh) {
