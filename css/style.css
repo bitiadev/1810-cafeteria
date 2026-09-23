@@ -413,6 +413,31 @@ a { color: inherit; }
 }
 
 /* ---------------------------------------------------------
+   Debugging
+--------------------------------------------------------- */
+.btn--link {
+  padding: 0.5rem 1rem;
+  font-size: 0.72rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+
+.btn--link svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  flex-shrink: 0;
+}
+
+.btn--link > span {
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+  white-space: nowrap;
+}
+
+/* ---------------------------------------------------------
    Reduced motion
 --------------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
